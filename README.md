@@ -58,6 +58,9 @@
         isError, locations = bracket_check(test_string) #เก็บค่า ลง isError และ locations และเรียกใช้ฟังก์ชั่น bracket_check()
         print(f'error: {isError}') #ทำการแสดงค่า isError
         print('location:', locations) #ทำการแสดงค่า locations
+
+![Bracket_test](https://github.com/DionTawatchai/2310717302005_Data_Structure/assets/150526207/ab4ec3d4-dc04-40af-bd4a-57d0e9d0a59c)
+
   
 - ไฟล์ที่ชื่อว่า test_bracket_1.py
     - คือ ชุดคำสั่ง unitest เพื่อใช้ทดสอบความถูกต้องของ code ของไฟล์ bracket_check1.py ว่าผลจะRun อออกมาได้ถูกต้องหรือไม่
@@ -113,5 +116,6 @@
 ผลลัพธ์การ Run Code ที่ทำการเช็ค Unitest (test_bracket_check_1) กับ ไฟล์ bracket_check_1 
 
     ผลสรุปได้ว่าสามารถ Test คำสั่งได้ 5 Test case จากโจทย์ สามารถตรวจสอบได้ถูกต้องทั่งหมด
-![Unitest](https://github.com/DionTawatchai/2310717302005_Data_Structure/assets/150526207/3fec6b12-35b0-438d-9936-9ecb8cd3e5ec)
+![Unitest1](https://github.com/DionTawatchai/2310717302005_Data_Structure/assets/150526207/ee892dcb-3539-4697-9b8d-1613ac212639)
+
 
