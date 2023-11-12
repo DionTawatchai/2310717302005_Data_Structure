@@ -21,7 +21,10 @@
   - ไฟล์ที่ชื่อว่า test_bracket_1.py
     - คือ ชุดคำสั่ง unitest เพื่อใช้ทดสอบความถูกต้องของ code ของไฟล์ bracket_check1.py ว่าผลจะRun อออกมาได้ถูกต้องหรือไม่
       - โดย หลักการทำงานของ ไฟล์นี้ คือ มีฟังก์ชั่น test อยู่ 5 test case
-      -     def test_no_error(self):
+
+
+
+    -  def test_no_error(self):
         test_string = '[{(Hello)}]'
         isError, location = bracket_check(test_string)
         self.assertEqual(isError, False)
